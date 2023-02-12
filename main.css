@@ -1,0 +1,19 @@
+body { background-color: black;
+       color: white;
+       font-family: Lucida Sans;
+       text-align: center; }
+
+h1 { font-family: Lucida Sans;
+     font-size: 50px; }
+
+a:link { color: white;
+         background-color: transparent;
+         text-decoration: underline; }
+        
+a:visited { color: blueviolet;
+            background-color: transparent;
+            text-decoration: underline; }
+        
+a:hover { color: lightblue;
+          background-color: transparent;
+          text-decoration: underline; }
