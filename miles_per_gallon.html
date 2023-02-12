@@ -14,7 +14,7 @@
       if (!isNaN(miles) && miles > 0 && !isNaN(gallons) && gallons > 0)
       { 
         var mpg = miles / gallons;
-        mpg = parseInt(mpg);
+        mpg = parseFloat(mpg).toFixed(2);
         alert("Miles per gallon = " + mpg);
       }
       else
